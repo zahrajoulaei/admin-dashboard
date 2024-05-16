@@ -49,3 +49,52 @@ body {
     justify-content: space-around;
     padding: 11px;
 }
+.social-user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.social-user ul {
+    list-style: none;
+}
+.user-bottom-menu a, user-bottom-menu a:hover {
+    color: white;
+}
+.user-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.user-info img {
+    border-radius: 50%;
+}
+.button-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-border {
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 5px;
+}
+.full-user-info {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.user-border .card {
+    border: none;
+}
+.social-user a, .social-user a:visited {
+    color:#CD4695;
+    text-decoration: none;
+    font-size: 22px;
+}
