@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+}
+.main {
+    height: 100vh;
+}
+.side-menu {
+    background-color: azure;
+    height: 100vh;
+}
