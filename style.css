@@ -1,100 +1,112 @@
 body {
-    height: 100vh;
+  height: 100vh;
 }
 .main {
-    height: 100vh;
+  height: 100vh;
 }
 .side-menu {
-    background-color: navy;
-    height: 100vh;
-    color:white;
+  background-color: navy;
+  height: 100vh;
+  color: white;
 }
-.flex-class{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.flex-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.bg-body-tertiary{
-    background-color: #e3f2fd !important;
+.bg-body-tertiary {
+  background-color: #e3f2fd !important;
 }
 
 .side-menu img {
-    border-radius: 50%;
-    margin-right: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 .user-info-menu {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 16px;
 }
-.user-info-menu a, .user-info-menu a:visited {
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 10px;
-    text-decoration: none;
-    cursor: pointer;
+.user-info-menu a,
+.user-info-menu a:visited {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.user-bottom-menu{
-    position: absolute;
-    bottom:0;
-    width: 100%;
+.user-bottom-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .social-menu {
-    display: flex;
-    justify-content: space-around;
-    padding: 11px;
+  display: flex;
+  justify-content: space-around;
+  padding: 11px;
 }
 .social-user {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .social-user ul {
-    list-style: none;
+  list-style: none;
 }
-.user-bottom-menu a, user-bottom-menu a:hover {
-    color: white;
+.user-bottom-menu a,
+user-bottom-menu a:hover {
+  color: white;
 }
 .user-info {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .user-info img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .button-flex {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 .user-border {
-    border: 1px solid gray;
-    border-radius: 12px;
-    padding: 10px;
-    margin: 5px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 5px;
 }
 .full-user-info {
-    text-decoration: none;
-    list-style: none;
-    padding: 20px;
-    font-size: 20px;
-    margin-left: 25px;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: 25px;
 }
 .user-border .card {
-    border: none;
+  border: none;
 }
-.social-user a, .social-user a:visited {
-    color:#CD4695;
-    text-decoration: none;
-    font-size: 22px;
+.social-user a,
+.social-user a:visited {
+  color: #cd4695;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.user .navbar a,
+.user .navbar a:visited {
+  color: gray;
+  text-decoration: none;
+}
+.user .card a,
+.user .card a:visited {
+  color: #cd4695;
 }
