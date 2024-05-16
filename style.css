@@ -17,6 +17,35 @@ body {
 }
 .bg-body-tertiary{
     background-color: #e3f2fd !important;
+}
 
+.side-menu img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.user-info-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+}
+.user-info-menu a, .user-info-menu a:visited {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
 
+.user-bottom-menu{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+.social-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 11px;
 }
