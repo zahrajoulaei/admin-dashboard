@@ -110,3 +110,7 @@ user-bottom-menu a:hover {
 .user .card a:visited {
   color: #cd4695;
 }
+
+.form {
+    margin: 0 auto;
+}
