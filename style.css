@@ -5,6 +5,18 @@ body {
     height: 100vh;
 }
 .side-menu {
-    background-color: azure;
+    background-color: navy;
     height: 100vh;
+    color:white;
+}
+.flex-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bg-body-tertiary{
+    background-color: #e3f2fd !important;
+
+
 }
